@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Capsule : MonoBehaviour
-{
+public class Capsule : MonoBehaviour{
 
     public float speed = 5f; 
     public Transform currentBall;
@@ -26,15 +25,16 @@ public class Capsule : MonoBehaviour
             this.gameObject.GetComponent<Renderer>().enabled = false;
             switch(type){
                 case 0: 
-                    //Debug.Log("PowerUp 1");
+                    Debug.Log("Multiball");
                     StartCoroutine(MultiBall());
                     break;
                 case 1:
-                    //Debug.Log("PowerUp 2");
+                    Debug.Log("ExtraSpeed");
                     StartCoroutine(ExtraSpeed());
                     break;
                 case 2:
                     Debug.Log("FireBall");
+                    StartCoroutine(FireBall());
                     break;
                 case 3:
                     Debug.Log("Movimiento cámara");
@@ -61,11 +61,60 @@ public class Capsule : MonoBehaviour
     }
 
     IEnumerator ExtraSpeed(){
-        currentBall.gameObject.GetComponent<Ball>().MultiplySpeed(2);
+        // Buscamos todas las bolas que existan en ese momento
+        GameObject[] todasLasBolas = GameObject.FindGameObjectsWithTag("Ball");
+
+        // Aceleramos todas
+        foreach (GameObject bola in todasLasBolas) {
+            Ball script = bola.GetComponent<Ball>();
+            if (script != null) script.MultiplySpeed(4);
+        }
+
         yield return new WaitForSeconds(3f);
-        currentBall.gameObject.GetComponent<Ball>().DivideSpeed(2);
+
+        // Al terminar el tiempo, buscamos de nuevo (por si alguna se destruyó)
+        GameObject[] bolasRestantes = GameObject.FindGameObjectsWithTag("Ball");
+        foreach (GameObject bola in bolasRestantes) {
+            Ball script = bola.GetComponent<Ball>();
+            if (script != null) script.DivideSpeed(4);
+        }
 
     }
 
+    /**
+        Mecánica de FireBall
+    */
+    IEnumerator FireBall() {
+        Debug.Log("Limpiando clones y activando FireBall en la original...");
+
+        //Busca todas las pelotas 
+        GameObject[] todasLasBolas = GameObject.FindGameObjectsWithTag("Ball");
+
+        //Elimina todas las que no son la principal
+        foreach (GameObject ball in todasLasBolas) {
+            if (ball.transform != currentBall) {
+                Destroy(ball);
+            }
+        }
+
+        //Prepara el tablero para la fireball
+        if (currentBall != null) {
+            Ball ballScript = currentBall.GetComponent<Ball>();
+
+            if (ballScript != null) {
+                //Resetea la pelota y su velocidad
+                ballScript.ResetBall(); 
+                ballScript.ResetSpeed();
+
+                //Cambia el color a rojo
+                Renderer render = currentBall.GetComponent<Renderer>();
+                if (render != null) {
+                    render.material.color = Color.red;
+                }
+            }
+        }
+
+        yield return null;
+    }
 
 }
