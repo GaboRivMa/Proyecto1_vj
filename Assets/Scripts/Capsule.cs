@@ -13,7 +13,7 @@ public class Capsule : MonoBehaviour
     // Start is called before the first frame update
     void Start(){
         currentBall = GameObject.FindGameObjectWithTag("Ball").transform;
-        type = Random.Range(0,1);
+        type = Random.Range(0,4);
     }
 
     // Update is called once per frame
@@ -32,6 +32,12 @@ public class Capsule : MonoBehaviour
                 case 1:
                     //Debug.Log("PowerUp 2");
                     StartCoroutine(ExtraSpeed());
+                    break;
+                case 2:
+                    Debug.Log("FireBall");
+                    break;
+                case 3:
+                    Debug.Log("Movimiento cámara");
                     break;
             }
         }
