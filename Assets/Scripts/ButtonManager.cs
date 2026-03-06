@@ -22,4 +22,8 @@ public class ButtonManager : MonoBehaviour
     public void GoToMenuTuto(){
         SceneManager.LoadScene("Menu");
     }
+
+    public void GoToComoCredito(){
+        SceneManager.LoadScene("Creditos");
+    }
 }
