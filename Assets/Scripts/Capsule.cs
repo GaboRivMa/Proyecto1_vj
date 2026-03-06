@@ -32,12 +32,17 @@ public class Capsule : MonoBehaviour
                 case 1:
                     //Debug.Log("PowerUp 2");
                     StartCoroutine(ExtraSpeed());
+                    StartCoroutine(MultiBall());//borrar
                     break;
                 case 2:
                     Debug.Log("FireBall");
+                    StartCoroutine(MultiBall());//Borrar
+
                     break;
                 case 3:
                     Debug.Log("Movimiento cámara");
+                    StartCoroutine(MultiBall());//Borrar
+
                     break;
             }
         }

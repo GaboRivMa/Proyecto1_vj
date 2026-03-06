@@ -11,8 +11,14 @@ public class GameManager : MonoBehaviour{
     public int score = 0;
     public int lives = 3;
     public Block[] blocks; 
+    public Ball[] balls;
 
     public int blockCount =0;
+    public int ballCount = 0;
+
+    [Header("Bolas")]
+    public GameObject ballPrefab;
+    public Transform padTransform;
 
     [Header("UI")]
     public TMP_Text scoreText;
@@ -33,14 +39,30 @@ public class GameManager : MonoBehaviour{
     void Start(){
         blocks = FindObjectsByType<Block>(FindObjectsSortMode.None);
         blockCount = blocks.Length;
-
+        balls = FindObjectsByType<Ball>(FindObjectsSortMode.None);
+        ballCount = balls.Length;
     }
 
     void Update(){
         blocks = FindObjectsByType<Block>(FindObjectsSortMode.None);
         blockCount = blocks.Length;
+        balls = FindObjectsByType<Ball>(FindObjectsSortMode.None);
+        ballCount = balls.Length;
+        CountBalls();
         scoreText.text = $"Puntos: {score}";
         livesText.text = $"Vidas: {lives}";
+    }
+
+    void CountBalls(){
+        if(lives <= 0 || resetScreen.activeSelf)
+            return;
+
+        if(ballCount == 0)
+            LoseLifes();
+    }
+
+    void RespawnBall(){
+        Instantiate(ballPrefab, padTransform.position + new Vector3(0f, 0.65f, 0f), Quaternion.identity);
     }
 
 
@@ -61,7 +83,10 @@ public class GameManager : MonoBehaviour{
         if(lives <=0){
             Debug.Log("You lose! :(");
             EndGame();
+        }else{
+            RespawnBall();
         }
+        
     }
 
     public void EndGame(){

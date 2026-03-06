@@ -50,8 +50,7 @@ public class Ball : MonoBehaviour
 
     void OnTriggerEnter(Collider other){
         if(other.CompareTag("DeadZone")){
-            GameManager.instance.LoseLifes();
-            ResetBall();
+            Destroy(this.gameObject);
         }
     }
 
