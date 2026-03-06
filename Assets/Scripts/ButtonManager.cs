@@ -14,4 +14,12 @@ public class ButtonManager : MonoBehaviour
         GameManager.instance.ResetGame();
         SceneManager.LoadScene("Menu");
     }
+
+    public void GoToComoJugar(){
+        SceneManager.LoadScene("Guia");
+    }
+
+    public void GoToMenuTuto(){
+        SceneManager.LoadScene("Menu");
+    }
 }
