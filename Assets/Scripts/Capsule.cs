@@ -13,7 +13,7 @@ public class Capsule : MonoBehaviour
     // Start is called before the first frame update
     void Start(){
         currentBall = GameObject.FindGameObjectWithTag("Ball").transform;
-        type = Random.Range(0,1);
+        type = Random.Range(0,4);
     }
 
     // Update is called once per frame
@@ -23,19 +23,24 @@ public class Capsule : MonoBehaviour
 
     private void OnTriggerEnter(Collider other){
         if(other.gameObject.tag == "Player"){ 
-            this.gameObject.GetComponent<Renderer>().enabled = false;
+           this.gameObject.GetComponent<Renderer>().enabled = false;
             switch(type){
                 case 0: 
-                    //Debug.Log("PowerUp 1");
                     StartCoroutine(MultiBall());
                     break;
                 case 1:
-                    //Debug.Log("PowerUp 2");
                     StartCoroutine(ExtraSpeed());
+                    break;
+                case 2:
+                    Debug.Log("Fireball");
+                    break;
+                case 3:
+                    Debug.Log("Giro cámara");
                     break;
             }
         }
-        if(other.gameObject.tag=="DeadZone"){
+
+        if(other.gameObject.tag == "DeadZone"){
             Destroy(this.gameObject);
         }
     }

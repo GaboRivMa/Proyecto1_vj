@@ -18,9 +18,12 @@ public class Ball : MonoBehaviour
         padTransform = GameObject.Find("Paddle").transform;
     }
 
+    //// Start is called before the first frame update
+    //void Start(){   
+    //    Launch();
+    //}
 
     public void Launch(){
-        //Lanzamiento en diagonal
         float angle = Random.Range(10f,170f);
         float radians = angle * Mathf.Deg2Rad;
 

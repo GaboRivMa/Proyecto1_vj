@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour{
 
     public int score = 0;
     public int lives = 3;
-    public Block[] blocks; 
+    public Ladrillo[] blocks; //cheacar nombres
 
     public int blockCount =0;
 
@@ -31,13 +31,13 @@ public class GameManager : MonoBehaviour{
     }
 
     void Start(){
-        blocks = FindObjectsByType<Block>(FindObjectsSortMode.None);
+        blocks = FindObjectsByType<Ladrillo>(FindObjectsSortMode.None);
         blockCount = blocks.Length;
 
     }
 
     void Update(){
-        blocks = FindObjectsByType<Block>(FindObjectsSortMode.None);
+        blocks = FindObjectsByType<Ladrillo>(FindObjectsSortMode.None);
         blockCount = blocks.Length;
         scoreText.text = $"Puntos: {score}";
         livesText.text = $"Vidas: {lives}";
@@ -65,8 +65,8 @@ public class GameManager : MonoBehaviour{
     }
 
     public void EndGame(){
-        GameObject.Find("Paddle").SetActive(false); 
-        GameObject[] balls = GameObject.FindGameObjectsWithTag("Ball");
+        GameObject.Find("Paddle").SetActive(false); //checar etiqueta del jugador
+        GameObject[] balls = GameObject.FindGameObjectsWithTag("Ball"); //checar etiqueta
         foreach(GameObject ball in balls){
             ball.SetActive(false);
         }
