@@ -37,6 +37,7 @@ public class Ball : MonoBehaviour
         launched = false;
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
+        ResetSpeed();
         GetComponent<Renderer>().material.color = Color.white;
         FollowPad();
     }
