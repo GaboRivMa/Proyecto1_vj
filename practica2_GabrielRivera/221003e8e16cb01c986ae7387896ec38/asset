@@ -35,9 +35,6 @@ public class Capsule : MonoBehaviour
                     break;
             }
         }
-        if(other.gameObject.tag=="DeadZone"){
-            Destroy(this.gameObject);
-        }
     }
 
     IEnumerator MultiBall(){
