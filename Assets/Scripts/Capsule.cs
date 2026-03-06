@@ -12,7 +12,7 @@ public class Capsule : MonoBehaviour{
     // Start is called before the first frame update
     void Start(){
         currentBall = GameObject.FindGameObjectWithTag("Ball").transform;
-        type = Random.Range(0,4);
+        type = Random.Range(0,4);   
     }
 
     // Update is called once per frame
@@ -67,7 +67,7 @@ public class Capsule : MonoBehaviour{
         // Aceleramos todas
         foreach (GameObject bola in todasLasBolas) {
             Ball script = bola.GetComponent<Ball>();
-            if (script != null) script.MultiplySpeed(4);
+            if (script != null) script.MultiplySpeed(2);
         }
 
         yield return new WaitForSeconds(3f);
@@ -76,7 +76,7 @@ public class Capsule : MonoBehaviour{
         GameObject[] bolasRestantes = GameObject.FindGameObjectsWithTag("Ball");
         foreach (GameObject bola in bolasRestantes) {
             Ball script = bola.GetComponent<Ball>();
-            if (script != null) script.DivideSpeed(4);
+            if (script != null) script.DivideSpeed(2);
         }
 
     }
