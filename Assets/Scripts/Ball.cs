@@ -15,7 +15,10 @@ public class Ball : MonoBehaviour
 
     void Awake(){
         rb = GetComponent<Rigidbody>();
-        padTransform = GameObject.Find("Paddle").transform;
+
+        GameObject paddle = GameObject.Find("Paddle");
+        if (paddle != null)
+            padTransform = paddle.transform;
     }
 
 

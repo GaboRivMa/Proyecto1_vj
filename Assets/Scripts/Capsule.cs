@@ -34,7 +34,7 @@ public class Capsule : MonoBehaviour{
                     break;
                 case 2:
                     Debug.Log("FireBall");
-                    StartCoroutine(FireBall());
+                    //StartCoroutine(FireBall());
                     break;
                 case 3:
                     Debug.Log("Movimiento cámara");
@@ -47,17 +47,29 @@ public class Capsule : MonoBehaviour{
     }
 
     IEnumerator MultiBall(){
-        var newBall1 = Instantiate(preFabBall, currentBall.position, Quaternion.identity);
+        GameObject bolaActual = GameObject.FindWithTag("Ball");
+        
+        if(bolaActual != null){
+            Vector3 spawnPos = bolaActual.transform.position;
+
+            var newBall1 = Instantiate(preFabBall, spawnPos, Quaternion.identity);
+            newBall1.GetComponent<Ball>().Launch();
+
+            var newBall2 = Instantiate(preFabBall, spawnPos, Quaternion.identity);
+            newBall2.GetComponent<Ball>().Launch();
+        
+        /*var newBall1 = Instantiate(preFabBall, bolaActual.position, Quaternion.identity);
         newBall1.GetComponent<Ball>().Launch();
 
-        var newBall2 = Instantiate(preFabBall, currentBall.position, Quaternion.identity);
+        var newBall2 = Instantiate(preFabBall, bolaActual.position, Quaternion.identity);
         newBall2.GetComponent<Ball>().Launch();
 
-        //despues de un tiempo desaparecen las nuevas bolas
+        *///despues de un tiempo desaparecen las nuevas bolas
         yield return new WaitForSeconds(15f);
 
-        Destroy(newBall1.gameObject);
-        Destroy(newBall2.gameObject);
+            Destroy(newBall1.gameObject);
+            Destroy(newBall2.gameObject);
+        }
     }
 
     IEnumerator ExtraSpeed(){

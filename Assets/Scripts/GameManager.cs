@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour{
 
@@ -11,7 +12,8 @@ public class GameManager : MonoBehaviour{
     public int score = 0;
     public int lives = 3;
     public Block[] blocks; 
-    public Ball[] balls;
+    public GameObject[] balls;
+    private bool isGameOver = false;
 
     public int blockCount =0;
     public int ballCount = 0;
@@ -32,37 +34,32 @@ public class GameManager : MonoBehaviour{
         }
         else{
             instance = this;
-            DontDestroyOnLoad(this.gameObject);
+            //DontDestroyOnLoad(this.gameObject);
         }
     }
 
     void Start(){
         blocks = FindObjectsByType<Block>(FindObjectsSortMode.None);
         blockCount = blocks.Length;
-        balls = FindObjectsByType<Ball>(FindObjectsSortMode.None);
+        balls = GameObject.FindGameObjectsWithTag("Ball");
         ballCount = balls.Length;
     }
 
     void Update(){
         blocks = FindObjectsByType<Block>(FindObjectsSortMode.None);
         blockCount = blocks.Length;
-        balls = FindObjectsByType<Ball>(FindObjectsSortMode.None);
+        balls = GameObject.FindGameObjectsWithTag("Ball");
         ballCount = balls.Length;
-        CountBalls();
+        if(ballCount == 0 && !isGameOver)
+            LoseLifes();
         scoreText.text = $"Puntos: {score}";
         livesText.text = $"Vidas: {lives}";
     }
 
-    void CountBalls(){
-        if(lives <= 0 || resetScreen.activeSelf)
-            return;
-
-        if(ballCount == 0)
-            LoseLifes();
-    }
 
     void RespawnBall(){
-        Instantiate(ballPrefab, padTransform.position + new Vector3(0f, 0.65f, 0f), Quaternion.identity);
+        if (ballPrefab != null && padTransform != null && padTransform.gameObject.activeInHierarchy)
+            Instantiate(ballPrefab, padTransform.position + new Vector3(0f, 0.65f, 0f), Quaternion.identity);
     }
 
 
@@ -90,19 +87,25 @@ public class GameManager : MonoBehaviour{
     }
 
     public void EndGame(){
-        GameObject.Find("Paddle").SetActive(false); 
+        isGameOver = true;
+        if(padTransform != null)
+            padTransform.gameObject.SetActive(false);
+        
         GameObject[] balls = GameObject.FindGameObjectsWithTag("Ball");
         foreach(GameObject ball in balls){
-            ball.SetActive(false);
+            //ball.SetActive(false);
+            Destroy(ball);
         }
-        resetScreen.SetActive(true);
+        if(resetScreen != null)
+            resetScreen.SetActive(true);
     }
 
     public void ResetGame(){
-        score = 0;
+        /*score = 0;
         lives = 3;
         gameScreen.SetActive(true);
-        resetScreen.SetActive(false);
+        resetScreen.SetActive(false);*/
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
 }
