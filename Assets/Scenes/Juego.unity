@@ -4365,11 +4365,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 738b66552b7d2b7c4bfa50ef2645cbf6, type: 3}
---- !u!1 &1896057238 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 887091895085690637, guid: 738b66552b7d2b7c4bfa50ef2645cbf6, type: 3}
-  m_PrefabInstance: {fileID: 1896057237}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1938985390
 GameObject:
   m_ObjectHideFlags: 0
@@ -4403,8 +4398,10 @@ MonoBehaviour:
   score: 0
   lives: 3
   blocks: []
+  balls: []
   blockCount: 0
-  ballPrefab: {fileID: 1896057238}
+  ballCount: 0
+  ballPrefab: {fileID: 887091895085690637, guid: 738b66552b7d2b7c4bfa50ef2645cbf6, type: 3}
   padTransform: {fileID: 133753772}
   scoreText: {fileID: 732819420}
   livesText: {fileID: 354248820}

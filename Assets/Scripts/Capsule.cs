@@ -13,6 +13,7 @@ public class Capsule : MonoBehaviour{
     void Start(){
         currentBall = GameObject.FindGameObjectWithTag("Ball").transform;
         type = Random.Range(0,4);   
+        SetCapsuleColor();
     }
 
     // Update is called once per frame
@@ -43,6 +44,29 @@ public class Capsule : MonoBehaviour{
         }
         if(other.gameObject.tag=="DeadZone"){
             Destroy(this.gameObject);
+        }
+    }
+
+    void SetCapsuleColor() {
+        Renderer rend = GetComponent<Renderer>();
+        if (rend != null) {
+            switch (type) {
+                case 0: // Multiball
+                    rend.material.color = Color.cyan; 
+                    break;
+                case 1: // Extra Speed
+                    rend.material.color = Color.yellow;
+                    break;
+                case 2: // Fireball
+                    rend.material.color = Color.red;
+                    break;
+                case 3: // Movimiento cámara
+                    rend.material.color = Color.magenta;
+                    break;
+                default:
+                    rend.material.color = Color.white;
+                    break;
+            }
         }
     }
 
