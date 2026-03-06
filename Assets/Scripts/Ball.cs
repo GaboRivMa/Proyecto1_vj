@@ -33,19 +33,36 @@ public class Ball : MonoBehaviour
         transform.position = padTransform.position + offsetFromPad;
     }
 
-    void ResetBall(){
+    public void ResetBall(){
         launched = false;
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
+        GetComponent<Renderer>().material.color = Color.white;
         FollowPad();
+    }
+
+    public void ResetSpeed(){
+        launchSpeed = 8f;
+        if (launched && rb != null) {
+            // Aplicamos la velocidad base a la dirección actual
+            rb.velocity = rb.velocity.normalized * launchSpeed;
+        }
     }
 
     public void MultiplySpeed(int multi){
         launchSpeed = launchSpeed * multi;
+
+        if (launched && rb != null) {
+            // Mantenemos la dirección (normalized) y le damos la nueva magnitud
+            rb.velocity = rb.velocity.normalized * launchSpeed;
+        }
     }
 
     public void DivideSpeed(int div){
         launchSpeed = launchSpeed / div;
+        if (launched && rb != null) {
+            rb.velocity = rb.velocity.normalized / launchSpeed;
+        }
     }
 
     void OnTriggerEnter(Collider other){
