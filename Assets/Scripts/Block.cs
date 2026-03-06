@@ -13,7 +13,7 @@ public class Block : MonoBehaviour{
                 Instantiate(capsule, this.transform.position,capsule.transform.rotation);
             }
             GameManager.instance.BlockDestroy();
-            AudioManager.Instance.PlayBlockSFX();
+            //AudioManager.Instance.PlayBlockSFX();
             Destroy(this.gameObject);
         }
     }
