@@ -9,6 +9,8 @@ public class Capsule : MonoBehaviour{
     public GameObject preFabBall;
     public int type = 0;
 
+    public static bool bRotar = false;
+
     // Start is called before the first frame update
     void Start(){
         currentBall = GameObject.FindGameObjectWithTag("Ball").transform;
@@ -37,8 +39,16 @@ public class Capsule : MonoBehaviour{
                     Debug.Log("FireBall");
                     //StartCoroutine(FireBall());
                     break;
-                case 3:
-                    Debug.Log("Movimiento cámara");
+                case 3: 
+                    if (!bRotar) {  
+                        bRotar = true; 
+                        Debug.Log("Activando Rotación");
+                        StartCoroutine(MovingCam());
+                    } else {
+                        bRotar = false;
+                        Debug.Log("Ya estaba rotado, dando Velocidad");
+                        StartCoroutine(ExtraSpeed());
+                    }
                     break;
             }
         }
@@ -151,6 +161,39 @@ public class Capsule : MonoBehaviour{
         }
 
         yield return null;
+    }
+
+    IEnumerator MovingCam() {
+        Transform camTransform = Camera.main.transform;
+        Quaternion rotOriginal = camTransform.localRotation;
+        Quaternion rotObjetivo = rotOriginal * Quaternion.Euler(0, 0, 30);
+
+        float duracionGiro = 3.0f;
+        float tiempoEspera = 2.0f;
+        float tiempo = 0f;
+
+        //Girar
+        while (tiempo < duracionGiro) {
+            float t = tiempo / duracionGiro;
+            camTransform.localRotation = Quaternion.Slerp(rotOriginal, rotObjetivo, t);
+            tiempo += Time.deltaTime;
+            yield return null;
+        }
+        camTransform.localRotation = rotObjetivo;
+        //Esperar
+        
+        yield return new WaitForSeconds(tiempoEspera);
+
+        //Regresar normal
+        tiempo = 0f;
+        while (tiempo < duracionGiro) {
+            float t = tiempo / duracionGiro;
+            camTransform.localRotation = Quaternion.Slerp(rotObjetivo, rotOriginal, t);
+            tiempo += Time.deltaTime;
+            yield return null;
+        }
+        camTransform.localRotation = rotOriginal;
+        Destroy(this.gameObject);
     }
 
 }
