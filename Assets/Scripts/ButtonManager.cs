@@ -7,7 +7,7 @@ public class ButtonManager : MonoBehaviour
 {
 
     public void GoToGame(){
-        SceneManager.LoadScene("Juego");
+        SceneManager.LoadScene("Nivel1");
     }
 
     public void GoToMenu(){

@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour{
 
         if(blockCount<=0){
             Debug.Log("You win! :)");
-            EndGame();
+            NextLevel();
         }
     }
 
@@ -98,6 +98,19 @@ public class GameManager : MonoBehaviour{
         }
         if(resetScreen != null)
             resetScreen.SetActive(true);
+    }
+
+    //Función para avanzar de nivel
+    public void NextLevel(){
+        int currentIndex = SceneManager.GetActiveScene().buildIndex;
+        
+        if (currentIndex == 3) {
+            // Si terminó el último nivel, ve a los créditos
+            SceneManager.LoadScene("Créditos"); 
+        } else {
+            // Si no, carga el que sigue por índice (Nivel1 -> Nivel2 -> Nivel3)
+            SceneManager.LoadScene(currentIndex + 1);
+        }
     }
 
     public void ResetGame(){
