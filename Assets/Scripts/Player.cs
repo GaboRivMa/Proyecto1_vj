@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 using UnityEngine;
 
 public class Player : MonoBehaviour{
-    public float speed = 5f;
+    public float speed = 10f;
     public float minX = -6f;
     public float maxX = 6f;
 
