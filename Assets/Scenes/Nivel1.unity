@@ -178,6 +178,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.62703913
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.3160377
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (34)
@@ -353,6 +377,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.9837352
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.25943398
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (14)
@@ -423,6 +471,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.62703913
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.3160377
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (28)
@@ -492,6 +564,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.9837352
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.25943398
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -767,6 +863,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.20667194
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.18396229
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (22)
@@ -969,6 +1089,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.6509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.64361125
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -1247,6 +1391,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.22895159
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.22895159
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.990566
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (13)
@@ -1385,6 +1553,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.9837352
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.25943398
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (18)
@@ -1454,6 +1646,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.20667194
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.18396229
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -1618,6 +1834,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.9528302
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.907112
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.085395135
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -2035,6 +2275,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.62703913
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.3160377
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (33)
@@ -2104,6 +2368,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.9837352
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.25943398
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -2175,6 +2463,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.22895159
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.22895159
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.990566
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (11)
@@ -2244,6 +2556,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.9528302
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.907112
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.085395135
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -2315,6 +2651,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.6509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.64361125
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block
@@ -2384,6 +2744,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.20667194
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.18396229
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -2455,6 +2839,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.6509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.64361125
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (3)
@@ -2524,6 +2932,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.6509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.64361125
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -2595,6 +3027,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.22895159
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.22895159
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.990566
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (9)
@@ -2644,8 +3100,8 @@ Camera:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2899,6 +3355,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.9837352
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.25943398
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (19)
@@ -2968,6 +3448,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.20667194
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.18396229
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -3115,6 +3619,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.62703913
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.3160377
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (31)
@@ -3184,6 +3712,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.22895159
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.22895159
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.990566
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -3255,6 +3807,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.22895159
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.22895159
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.990566
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (8)
@@ -3324,6 +3900,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.9528302
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.907112
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.085395135
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -3395,6 +3995,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.9837352
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.25943398
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (17)
@@ -3464,6 +4088,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.6509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.64361125
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -3535,6 +4183,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.62703913
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.3160377
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (30)
@@ -3604,6 +4276,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.22895159
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.22895159
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.990566
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -3675,6 +4371,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.9528302
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.907112
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.085395135
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (41)
@@ -3744,6 +4464,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.20667194
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.18396229
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -4024,6 +4768,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.62703913
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.3160377
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (32)
@@ -4093,6 +4861,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.62703913
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.3160377
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -4164,6 +4956,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.9528302
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.907112
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.085395135
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (38)
@@ -4233,6 +5049,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.20667194
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.18396229
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -4304,6 +5144,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.6509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.64361125
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (4)
@@ -4373,6 +5237,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.9528302
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.907112
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.085395135
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -4602,6 +5490,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.9837352
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.25943398
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (15)
@@ -4671,6 +5583,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.6509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.64361125
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -4742,6 +5678,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.22895159
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.22895159
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.990566
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (10)
@@ -4812,6 +5772,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.9528302
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 0.907112
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.085395135
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (35)
@@ -4881,6 +5865,30 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.b
+      value: 0.20667194
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: colorFijo.r
+      value: 0.18396229
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: modoDeColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name

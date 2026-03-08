@@ -283,6 +283,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (178)
@@ -352,6 +360,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -662,6 +678,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (123)
@@ -942,6 +966,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (153)
@@ -1012,6 +1044,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (110)
@@ -1026,71 +1066,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
   m_PrefabInstance: {fileID: 186329028}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &215420716
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -11.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 9.935294
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_Name
-      value: Block (88)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
 --- !u!1001 &219318093
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1146,6 +1121,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -1217,6 +1200,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (119)
@@ -1287,6 +1278,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (163)
@@ -1356,6 +1355,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -1483,6 +1490,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -1659,6 +1674,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (171)
@@ -1729,6 +1752,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (162)
@@ -1778,8 +1809,8 @@ Camera:
   m_GameObject: {fileID: 329815751}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1891,6 +1922,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (116)
@@ -1960,6 +1999,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -2375,6 +2422,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (177)
@@ -2444,6 +2499,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -2515,6 +2578,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (132)
@@ -2529,71 +2600,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
   m_PrefabInstance: {fileID: 456314672}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &461737286
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.39
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -11.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 9.935294
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_Name
-      value: Block (87)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
 --- !u!1 &467505671
 GameObject:
   m_ObjectHideFlags: 0
@@ -2936,6 +2942,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (111)
@@ -3111,6 +3125,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (131)
@@ -3180,6 +3202,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -3251,6 +3281,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (105)
@@ -3320,6 +3358,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -3391,6 +3437,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (121)
@@ -3460,6 +3514,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -3531,6 +3593,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (137)
@@ -3600,6 +3670,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -3671,6 +3749,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (151)
@@ -3740,6 +3826,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -3879,6 +3973,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (135)
@@ -3949,6 +4051,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (169)
@@ -3978,6 +4088,10 @@ PrefabInstance:
     - target: {fileID: 3195298480550533335, guid: dfe49ec7524f6a8fe990818439a07d45, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5004436481400448806, guid: dfe49ec7524f6a8fe990818439a07d45, type: 3}
+      propertyPath: speed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6317911521926017219, guid: dfe49ec7524f6a8fe990818439a07d45, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4085,6 +4199,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (152)
@@ -4154,6 +4276,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -4434,6 +4564,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (175)
@@ -4504,6 +4642,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (183)
@@ -4573,6 +4719,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -4738,6 +4892,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (181)
@@ -4807,6 +4969,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -4878,6 +5048,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (136)
@@ -4947,6 +5125,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -5018,6 +5204,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (179)
@@ -5087,6 +5281,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -5368,6 +5570,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (115)
@@ -5437,6 +5647,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -5508,6 +5726,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (182)
@@ -5578,6 +5804,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (130)
@@ -5647,6 +5881,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -6043,6 +6285,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (160)
@@ -6112,6 +6362,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -6183,6 +6441,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (124)
@@ -6252,6 +6518,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -6323,6 +6597,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (173)
@@ -6393,6 +6675,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (170)
@@ -6462,6 +6752,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -6638,6 +6936,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (120)
@@ -6707,6 +7013,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -6778,6 +7092,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (145)
@@ -6847,6 +7169,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -6918,6 +7248,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (186)
@@ -6987,6 +7325,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -7373,6 +7719,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (109)
@@ -7442,6 +7796,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -7513,6 +7875,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (112)
@@ -7582,6 +7952,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -7786,6 +8164,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (161)
@@ -7855,6 +8241,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -8031,6 +8425,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (90)
@@ -8100,6 +8502,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -8451,6 +8861,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (167)
@@ -8520,6 +8938,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -8591,6 +9017,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (138)
@@ -8660,6 +9094,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -8761,6 +9203,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -8937,6 +9387,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (146)
@@ -9112,6 +9570,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (159)
@@ -9182,6 +9648,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (172)
@@ -9251,6 +9725,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -9485,6 +9967,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (157)
@@ -9691,6 +10181,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (165)
@@ -9705,71 +10203,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
   m_PrefabInstance: {fileID: 2004574697}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2015189898
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -11.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 9.935294
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
-      propertyPath: m_Name
-      value: Block (89)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
 --- !u!1 &2016617732
 GameObject:
   m_ObjectHideFlags: 0
@@ -9930,6 +10363,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -10106,6 +10547,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (180)
@@ -10175,6 +10624,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -10246,6 +10703,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (156)
@@ -10315,6 +10780,14 @@ PrefabInstance:
     - target: {fileID: 822193124670144856, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
@@ -10386,6 +10859,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: tieneBrillo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6387160544065103319, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
+      propertyPath: intensidadBrillo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7076398504233642373, guid: 16e2a1155a205ed33810e4760a23fc00, type: 3}
       propertyPath: m_Name
       value: Block (104)
@@ -10413,6 +10894,3 @@ SceneRoots:
   - {fileID: 329815754}
   - {fileID: 1668881512}
   - {fileID: 283166256}
-  - {fileID: 2015189898}
-  - {fileID: 215420716}
-  - {fileID: 461737286}
