@@ -473,13 +473,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Objetivo: Destruye todos los bloques y consigue la mayor cantidad de puntos
-    sin perder todas tus vidas. Cada bloque -10 puntos. Sig nivel -> Romper todos
-    los bloques\n\nControles:\nMover la barra: Flecha izquierda / A - Flecha derecha
-    / D\nLanzar la pelota: Space\n\nCapsulas:\nMultiball: Genera varias pelotas al
-    mismo tiempo durante 15 segundos.\nExtra Speed: Aumenta temporalmente la velocidad
-    de todas las pelotas.\nRotaci\xF3n de c\xE1mara: La c\xE1mara rota durante unos
-    segundos, cambiando tu percepci\xF3n del juego.\nFireball: La pelota principal
-    se reinicia sobre la barra y entra en un estado especial."
+    sin perder todas tus vidas. \n\nCada bloque +10 puntos. \n\xA1 Para pasar al
+    siguiente nivel debes romper todos los bloques !\n\nControles:\nMover la barra:
+    Flecha izquierda / A - Flecha derecha / D\nLanzar la pelota: Space\n\nCapsulas:\nMultiball:
+    Genera varias pelotas al mismo tiempo durante 15 segundos.\nExtra Speed: Aumenta
+    temporalmente la velocidad de todas las pelotas.\nRotaci\xF3n de c\xE1mara: La
+    c\xE1mara rota durante unos segundos, cambiando tu percepci\xF3n del juego.\nFireball:
+    Cuando pierdas una vida, podr\xE1s dirigir el lanzamiento de la siguiente pelota,
+    adem\xE1s tendr\xE1 un efecto."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -57,11 +57,18 @@ public class GameManager : MonoBehaviour{
     }
 
 
-    void RespawnBall(){
-        if (ballPrefab != null && padTransform != null && padTransform.gameObject.activeInHierarchy)
-            Instantiate(ballPrefab, padTransform.position + new Vector3(0f, 0.65f, 0f), Quaternion.identity);
+    GameObject RespawnBall(){
+        if (ballPrefab != null && padTransform != null && padTransform.gameObject.activeInHierarchy){
+            GameObject newBall = Instantiate(ballPrefab, padTransform.position + new Vector3(0f, 0.65f, 0f), Quaternion.identity);
+            return newBall; // La devolvemos
+        }
+        return null;
     }
-
+//
+    //void RespawnBall(){
+    //    if (ballPrefab != null && padTransform != null && padTransform.gameObject.activeInHierarchy)
+    //        Instantiate(ballPrefab, padTransform.position + new Vector3(0f, 0.65f, 0f), Quaternion.identity);
+    //}
 
     //logica de cuando destruimos bloques suba los puntos
     public void BlockDestroy(){
@@ -81,7 +88,15 @@ public class GameManager : MonoBehaviour{
             Debug.Log("You lose! :(");
             EndGame();
         }else{
-            RespawnBall();
+            GameObject ballGO = RespawnBall();
+
+            // Si la bola se creó y tenemos Fireballs, activamos el apuntado
+            if (ballGO != null && FireballInventory.Instance != null && FireballInventory.Instance.currentFireballs > 0) {
+                Ball ballScript = ballGO.GetComponent<Ball>();
+                if (ballScript != null) {
+                    ballScript.EnableAiming(); // Activa la línea y el mouse
+                }
+            }
         }
         
     }

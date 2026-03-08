@@ -14,7 +14,7 @@ public class Capsule : MonoBehaviour{
     // Start is called before the first frame update
     void Start(){
         currentBall = GameObject.FindGameObjectWithTag("Ball").transform;
-        type = Random.Range(0,4);   
+        type = 2;//Random.Range(0,4);   ----------------------------------------------------------------
         SetCapsuleColor();
     }
 
@@ -37,7 +37,9 @@ public class Capsule : MonoBehaviour{
                     break;
                 case 2:
                     Debug.Log("FireBall");
-                    //StartCoroutine(FireBall());
+                    if (FireballInventory.Instance != null) {
+                        FireballInventory.Instance.AddFireball();
+                    }
                     break;
                 case 3: 
                     if (!bRotar) {  

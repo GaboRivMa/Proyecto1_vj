@@ -13,6 +13,11 @@ public class Ball : MonoBehaviour
     public Vector3 offsetFromPad = new Vector3(0f,0.65f,0f); 
 
 
+    [Header("Configuración de Apuntado")]
+    public LineRenderer lineRenderer;
+    private float customAngle = 90f; 
+    private bool isAiming = false;
+
     void Awake(){
         rb = GetComponent<Rigidbody>();
 
@@ -81,6 +86,14 @@ public class Ball : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.Space)){
                 Launch();
             }
+            //Para el funcionamiento de la fireball
+            if (isAiming) {
+                HandleAiming();
+                // Lanza con Espacio o con el Clic Izquierdo del Mouse
+                if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) {
+                    LaunchDirected();
+                }
+            }
         }
 
         //reseteo de pelota
@@ -88,4 +101,58 @@ public class Ball : MonoBehaviour
             ResetBall();
         }
     }
+
+    // Método para activar el apuntado desde afuera
+    public void EnableAiming() {
+        if (FireballInventory.Instance != null && FireballInventory.Instance.currentFireballs > 0) {
+            isAiming = true;
+            if(lineRenderer != null) lineRenderer.enabled = true;
+            customAngle = 90f; 
+        }
+    }
+
+    /**
+        Detección del mouse para la fireball
+    **/
+    void HandleAiming() {
+        // Obtener la posición del mouse 
+        Vector3 mousePos = Input.mousePosition;
+        mousePos.z = -Camera.main.transform.position.z; 
+        Vector3 worldMousePos = Camera.main.ScreenToWorldPoint(mousePos);
+
+        // Calcular la dirección desde la bola hacia el mouse
+        Vector3 direction = (worldMousePos - transform.position).normalized;
+        direction.z = 0;
+
+        // Limitar el ángulo (para que no dispare hacia abajo)
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;    
+        angle = Mathf.Clamp(angle, 20f, 160f);
+        customAngle = angle; 
+
+        // Actualizar la línea visual
+        if (lineRenderer != null) {
+            lineRenderer.SetPosition(0, transform.position);
+
+            Vector3 restrictedDir = new Vector3(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad), 0);
+            lineRenderer.SetPosition(1, transform.position + restrictedDir * 2f);
+        }
+    }
+
+    /**
+        Lanzamiento dirigido con la fireball
+    */
+    public void LaunchDirected() {
+    float radians = customAngle * Mathf.Deg2Rad;
+    Vector3 direction = new Vector3(Mathf.Cos(radians), Mathf.Sin(radians), 0f);
+    rb.velocity = direction.normalized * launchSpeed;
+    
+    launched = true;
+    isAiming = false;
+    if(lineRenderer != null) lineRenderer.enabled = false;
+
+    // GASTAR LA FIREBALL
+    if (FireballInventory.Instance != null) {
+        FireballInventory.Instance.UseFireball();
+    }
+}
 }
