@@ -14,7 +14,7 @@ public class Capsule : MonoBehaviour{
     // Start is called before the first frame update
     void Start(){
         currentBall = GameObject.FindGameObjectWithTag("Ball").transform;
-        type = 2;//Random.Range(0,4);   ----------------------------------------------------------------
+        type = Random.Range(0,4);   
         SetCapsuleColor();
     }
 

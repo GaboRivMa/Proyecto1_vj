@@ -480,7 +480,7 @@ MonoBehaviour:
     temporalmente la velocidad de todas las pelotas.\nRotaci\xF3n de c\xE1mara: La
     c\xE1mara rota durante unos segundos, cambiando tu percepci\xF3n del juego.\nFireball:
     Cuando pierdas una vida, podr\xE1s dirigir el lanzamiento de la siguiente pelota,
-    adem\xE1s tendr\xE1 un efecto."
+    adem\xE1s podr\xE1s romper mas bloques."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
