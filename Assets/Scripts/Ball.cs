@@ -18,12 +18,20 @@ public class Ball : MonoBehaviour
     private float customAngle = 90f; 
     private bool isAiming = false;
 
+    [Header("Fireball")]
+    public bool isFireMode = false;
+    public float fireDuration = 3f;
+    private Coroutine fireRoutine;
+
     void Awake(){
         rb = GetComponent<Rigidbody>();
 
         GameObject paddle = GameObject.Find("Paddle");
         if (paddle != null)
             padTransform = paddle.transform;
+
+        if(lineRenderer == null)
+            lineRenderer = GetComponent<LineRenderer>();
     }
 
 
@@ -83,9 +91,6 @@ public class Ball : MonoBehaviour
     void Update(){
         if(!launched){
             FollowPad();
-            if(Input.GetKeyDown(KeyCode.Space)){
-                Launch();
-            }
             //Para el funcionamiento de la fireball
             if (isAiming) {
                 HandleAiming();
@@ -93,6 +98,9 @@ public class Ball : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) {
                     LaunchDirected();
                 }
+            }
+            else if(Input.GetKeyDown(KeyCode.Space)){
+                Launch();
             }
         }
 
@@ -102,57 +110,96 @@ public class Ball : MonoBehaviour
         }
     }
 
+    // Este método para no rebotar con los bloques cuando se tiene la fireball
+    private void OnCollisionEnter(Collision collision) {
+        if (isFireMode && collision.gameObject.CompareTag("Block")) {
+            rb.velocity = lastVelocity;            
+        }
+    }
+
+    private Vector3 lastVelocity;
+    void FixedUpdate() {
+        lastVelocity = rb.velocity;
+    }
+    
+    public void ActivateFireballPower() {
+        if (fireRoutine != null) {
+            StopCoroutine(fireRoutine);
+        }
+        fireRoutine = StartCoroutine(FireballRoutine());
+    }
+    
+    private IEnumerator FireballRoutine() {
+        isFireMode = true;
+        GetComponent<Renderer>().material.color = Color.red;        
+        yield return new WaitForSeconds(fireDuration);
+        isFireMode = false;
+        GetComponent<Renderer>().material.color = Color.white; // Vuelve a la normalidad
+        fireRoutine = null;
+    }
+
+    public void LaunchDirected() {
+        float radians = customAngle * Mathf.Deg2Rad;
+        Vector3 direction = new Vector3(Mathf.Cos(radians), Mathf.Sin(radians), 0f);
+        rb.velocity = direction.normalized * launchSpeed;
+
+        launched = true;
+        isAiming = false;
+        if(lineRenderer != null) lineRenderer.enabled = false;
+
+        ActivateFireballPower();
+
+        if (FireballInventory.Instance != null) {
+            FireballInventory.Instance.UseFireball();
+        }
+    }
+
     // Método para activar el apuntado desde afuera
     public void EnableAiming() {
+        lineRenderer.startWidth = 0.1f;
+        lineRenderer.endWidth = 0.05f;
         if (FireballInventory.Instance != null && FireballInventory.Instance.currentFireballs > 0) {
             isAiming = true;
-            if(lineRenderer != null) lineRenderer.enabled = true;
-            customAngle = 90f; 
+            Renderer rend = GetComponent<Renderer>();
+            if (rend != null)
+                rend.material.color = Color.red;
+
+            if(lineRenderer != null){
+                lineRenderer.enabled = true;
+                lineRenderer.positionCount = 2;   // ← MUY IMPORTANTE
+            }
+            customAngle = 90f;
         }
+        
     }
 
-    /**
-        Detección del mouse para la fireball
-    **/
+    
     void HandleAiming() {
-        // Obtener la posición del mouse 
-        Vector3 mousePos = Input.mousePosition;
-        mousePos.z = -Camera.main.transform.position.z; 
-        Vector3 worldMousePos = Camera.main.ScreenToWorldPoint(mousePos);
 
-        // Calcular la dirección desde la bola hacia el mouse
-        Vector3 direction = (worldMousePos - transform.position).normalized;
-        direction.z = 0;
+        Vector3 mouse = Input.mousePosition;
+        mouse.z = Mathf.Abs(Camera.main.transform.position.z);
 
-        // Limitar el ángulo (para que no dispare hacia abajo)
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;    
+        Vector3 worldMouse = Camera.main.ScreenToWorldPoint(mouse);
+        worldMouse.z = 0;
+
+        Vector3 dir = (worldMouse - transform.position).normalized;
+
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         angle = Mathf.Clamp(angle, 20f, 160f);
-        customAngle = angle; 
 
-        // Actualizar la línea visual
-        if (lineRenderer != null) {
+        customAngle = angle;
+
+        if(lineRenderer != null){
+
             lineRenderer.SetPosition(0, transform.position);
 
-            Vector3 restrictedDir = new Vector3(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad), 0);
-            lineRenderer.SetPosition(1, transform.position + restrictedDir * 2f);
+            Vector3 visualDir =
+                new Vector3(Mathf.Cos(angle * Mathf.Deg2Rad),
+                            Mathf.Sin(angle * Mathf.Deg2Rad),
+                            0);
+
+            lineRenderer.SetPosition(1, transform.position + visualDir * 3f);
         }
     }
 
-    /**
-        Lanzamiento dirigido con la fireball
-    */
-    public void LaunchDirected() {
-    float radians = customAngle * Mathf.Deg2Rad;
-    Vector3 direction = new Vector3(Mathf.Cos(radians), Mathf.Sin(radians), 0f);
-    rb.velocity = direction.normalized * launchSpeed;
-    
-    launched = true;
-    isAiming = false;
-    if(lineRenderer != null) lineRenderer.enabled = false;
-
-    // GASTAR LA FIREBALL
-    if (FireballInventory.Instance != null) {
-        FireballInventory.Instance.UseFireball();
-    }
-}
 }

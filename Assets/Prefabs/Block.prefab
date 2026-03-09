@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6387160544065103319}
   m_Layer: 0
   m_Name: Block
-  m_TagString: Untagged
+  m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,3 +119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   capsule: {fileID: 7997408586853472809, guid: 895ec5021a4e4eb009a1b4f30665a880, type: 3}
+  modoDeColor: 0
+  colorFijo: {r: 1, g: 1, b: 1, a: 1}
+  intensidadBrillo: 1
+  tieneBrillo: 0

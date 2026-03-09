@@ -64,11 +64,7 @@ public class GameManager : MonoBehaviour{
         }
         return null;
     }
-//
-    //void RespawnBall(){
-    //    if (ballPrefab != null && padTransform != null && padTransform.gameObject.activeInHierarchy)
-    //        Instantiate(ballPrefab, padTransform.position + new Vector3(0f, 0.65f, 0f), Quaternion.identity);
-    //}
+
 
     //logica de cuando destruimos bloques suba los puntos
     public void BlockDestroy(){
@@ -94,7 +90,7 @@ public class GameManager : MonoBehaviour{
             if (ballGO != null && FireballInventory.Instance != null && FireballInventory.Instance.currentFireballs > 0) {
                 Ball ballScript = ballGO.GetComponent<Ball>();
                 if (ballScript != null) {
-                    ballScript.EnableAiming(); // Activa la línea y el mouse
+                    ballScript.EnableAiming(); 
                 }
             }
         }
@@ -129,10 +125,6 @@ public class GameManager : MonoBehaviour{
     }
 
     public void ResetGame(){
-        /*score = 0;
-        lives = 3;
-        gameScreen.SetActive(true);
-        resetScreen.SetActive(false);*/
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
